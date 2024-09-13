@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(164, 192, 164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#upper{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(59, 113, 59);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 30%;
+}
+
+#upper .upperText{
+    width: 20%;
+}
+
+.upperText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* width: 100%; */
+}
+
+.upperTextBox{
+    padding: 0 20px;
+    background-color: #fff;
+    color:  rgb(6, 77, 6);
+    border-radius: 5px;
+}
+
+#timer{
+    /* padding: 0 20px; */
+    background-color: #fff;
+    color:  rgb(6, 77, 6);
+    border-radius: 5px;
+}
+
+.upperText h2{
+    font-weight: 500;
+}
+
+.upperTextBox h1{
+    font-weight: 800;
+}
+
+#center{
+    width: 100%;
+    height:85%;
+    /* background-color: red; */
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* font-size: 5vh; */
+}
+
+#bubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(59, 113, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#bubble:hover{
+    background-color:rgb(6, 77, 6);
+    transition: all ease 0.5s;
+}
